@@ -36,10 +36,11 @@
  .about h3{
     text-align: center;
 }
-.head  i{
-    font-size: 25px;
-    margin-left: 1rem;
-  color: rgb(225, 108, 123);
+.head img{
+  display: flex;
+  margin-left: 30vh;
+
+    
 }
 .about .icon{
     display: flex;
@@ -47,6 +48,7 @@
     
     font-size: 40px;
 }
+
 .head h3{
     text-align: center;
     margin: 3vh;
@@ -54,11 +56,7 @@
 .about li{
     list-style: none;
 }
-.About-1 .about .icon :hover a{
-    color: rgb(255, 88, 110);
-    background-color: white;
-    border-radius: 8px;
-}
+
 /*links*/
 .links-1 .links{
     display: flex;
@@ -71,8 +69,8 @@
     color: white;
     line-height: 43px;
 }
-.links i{
-    font-size: 20px;
+.links img{
+    
     margin-left: 10px;
 }
 .form{
