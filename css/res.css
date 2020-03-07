@@ -1,0 +1,142 @@
+
+
+@media screen and (max-width: 900px){
+    html{
+        font-size: 40%;
+    }
+    .background-sec1 .sec1{
+        background-position: cover;
+        min-height: 500px;
+        min-width: 400px;
+        width: 100%;
+    }
+    
+    .sec1back{
+        border: 1px solid chartreuse;
+       
+    }
+    .tagline{
+       min-width: 325px;
+       min-height: 350px;
+       height: 20vh;
+       margin-top: 10vh;
+    }
+    .sec1back #tagline-design{
+        font-size: 3.5rem;
+        line-height: 40px;
+        margin: 20vh 5vh 20vh 5vh;
+    }
+    .paragraph1{
+        font-size:14px;
+        margin:5vh 5vh 10vh 5vh;
+        padding-top: 5vh;
+    }
+    .navlinks li{
+        width: 50%;
+    }
+    .container #content{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .container #content2{ 
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .Get-over-fear{
+       
+        margin: 0 auto;
+        width: 900px;
+        
+        
+    }
+    .Sev-tips{
+        font-size: 16px;
+    }
+
+
+
+
+
+}
+@media screen and (max-width: 540px){
+    html{
+        font-size: 32%;
+    }
+    .background-sec1 .sec1{
+        background-position: cover;
+        height: 0px;
+        width: 0px;
+        border: 1px solid blue;
+    }
+    .sec1back{
+        display: block;
+        /* height: 500px;
+        width: 500px; */
+        border: none;
+    }
+    .sec1back #tagline-design{
+        margin-top: -50px;
+        font-size: 27px;
+        
+    }
+    .tagline{
+        border: none;
+        
+    }
+    .paragraph1{
+        font-size:14px;
+        margin:-40vh 1vh 0vh 1vh;
+        padding-top: 5vh;
+    }
+    .paragraph1 h1{
+        font-size: 20px;
+    }
+    .Get-over-fear .get-header{
+        background-color: rgb(255, 88, 110);
+        text-align: center;
+        font-size: 18px;
+        padding: 5vh;
+        font-family: 'Bellota', cursive;
+        width: 85vh;
+    }
+
+
+    .Sev-tips{
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-evenly;
+        line-height: 20px;
+        margin: 2vh;
+        width: 80vh;
+    }
+        .Sev-tips{
+        font-size: 14px;
+    }
+
+
+
+
+
+    .container #content{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .container #content2{ 
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .container{
+        height: 170vh;
+    }
+    .F-content{
+        display:flex;
+        flex-direction: column;
+    }
+    .footer{
+        max-width: 100vh;
+        border: 1px solid wheat;
+
+    }
+}
+
+

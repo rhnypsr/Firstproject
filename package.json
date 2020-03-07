@@ -1,0 +1,16 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d Project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://rhnypsr.github.io/Firstproject",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
